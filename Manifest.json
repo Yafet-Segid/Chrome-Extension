@@ -1,0 +1,15 @@
+{
+  "name": "Parent control",
+  "version": "1.0",
+  "description": "This is parent control website blocker",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "icons": {
+    "16": "icons/logo_16X16.png",
+    "48": "icons/logo_48X48.png",
+    "128": "icons/logo_128X128.png"
+  },
+  "manifest_version": 2
+}
